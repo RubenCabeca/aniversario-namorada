@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário, Meu Amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero" id="top">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <span class="subtitle">Uma celebração de amor, sonhos e memórias</span>
+      <h1>Feliz Aniversário, Meu Amor ❤️</h1>
+      <p>Hoje é o dia de celebrar todos os instantes que nos tornaram nós. Obrigado por existir no meu mundo.</p>
+      <button class="hero-button" id="startBtn">Começar</button>
+    </div>
+    <div class="heart-background"></div>
+  </section>
+
+  <main>
+    <section class="section countdown-section fade-in" id="countdown">
+      <div class="section-intro">
+        <span>Contador do Nosso Amor</span>
+        <h2>Cada segundo juntos é um tesouro</h2>
+        <p>Contagem regressiva dos dias, horas, minutos e segundos desde o dia em que decidimos ser um.</p>
+      </div>
+      <div class="countdown-grid" aria-live="polite">
+        <div class="countdown-card">
+          <span class="count-number" id="days">00</span>
+          <span class="count-label">Dias</span>
+        </div>
+        <div class="countdown-card">
+          <span class="count-number" id="hours">00</span>
+          <span class="count-label">Horas</span>
+        </div>
+        <div class="countdown-card">
+          <span class="count-number" id="minutes">00</span>
+          <span class="count-label">Minutos</span>
+        </div>
+        <div class="countdown-card">
+          <span class="count-number" id="seconds">00</span>
+          <span class="count-label">Segundos</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-intro fade-in">
+        <span>Linha Temporal</span>
+        <h2>Momentos que definem a nossa história</h2>
+        <p>Uma coleção de memórias importantes que marcaram cada capítulo do nosso amor.</p>
+      </div>
+      <div class="timeline-list" id="timelineList"></div>
+    </section>
+
+    <section class="section reasons-section" id="reasons">
+      <div class="section-intro fade-in">
+        <span>Razões</span>
+        <h2>Por que te amo tanto</h2>
+        <p>Pequenos motivos que fazem o meu coração bater mais forte por ti todos os dias.</p>
+      </div>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+    </section>
+
+    <section class="section letter-section fade-in" id="letter">
+      <div class="section-intro">
+        <span>Carta Especial</span>
+        <h2>Uma mensagem do coração</h2>
+      </div>
+      <div class="letter-card slide-up">
+        <p>Amor hoje é o teu dia especial, um dia em que celebras uma data importante e que demonstra a mulher que te tornaste. O teu homem não pode estar presente aí contigo mas vai estar sempre contigo e presente de corpo e alma. Podes contar comigo para tudo amor e quero que sabias que o teu homem ama-te do fundo do coração. O teu Deus grego.</p>
+      </div>
+    </section>
+
+    <section class="section stats-section fade-in" id="stats">
+      <div class="section-intro">
+        <span>Curiosidades</span>
+        <h2>O nosso pequeno universo</h2>
+        <p>Estatísticas doces que mostram quantos momentos especiais já vivemos juntos.</p>
+      </div>
+      <div class="stats-grid" id="statsGrid"></div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="section-intro fade-in">
+        <span>Quiz</span>
+        <h2>O quanto conheces o nosso amor?</h2>
+        <p>Responde ao quiz e vê quantas memórias partilhadas acertaste.</p>
+      </div>
+      <div class="quiz-card slide-up" id="quizContainer"></div>
+    </section>
+
+    <section class="section capsule-section fade-in" id="capsule">
+      <div class="section-intro">
+        <span>Cápsula do Tempo</span>
+        <h2>Uma mensagem para o futuro</h2>
+      </div>
+      <div class="capsule-card slide-up">
+        <p id="capsuleMessage"></p>
+      </div>
+    </section>
+  </main>
+
+  <section class="section final-section fade-in" id="final">
+    <div class="final-card slide-up">
+      <h2>Obrigada por existir, meu amor.</h2>
+      <p>Este presente digital é só o início de muitas memórias e novos capítulos juntos.</p>
+      <button class="hero-button" id="topBtn">Voltar ao topo</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
